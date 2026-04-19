@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 import { motion } from "motion/react";
 import { Heart, Sparkles, Clock, Image, Music, Palette, Check, ArrowRight } from "lucide-react";
-import { PRICE_BRL } from "../../lib/types";
+import { PRICE_BRL, PRICE_OLD_BRL } from "../../lib/types";
 import { DEMO_DATA } from "../../lib/demoData";
 
 function formatBRL(n: number) {
