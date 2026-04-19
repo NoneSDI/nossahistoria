@@ -107,6 +107,9 @@ export function CheckoutPage() {
                 </h3>
               </div>
               <div className="text-right">
+                <p className="text-white/30 line-through text-sm">
+                  R$ {PRICE_OLD_BRL.toFixed(2).replace(".", ",")}
+                </p>
                 <p
                   className="bg-gradient-to-b from-white to-white/70 bg-clip-text text-transparent"
                   style={{ fontFamily: "Playfair Display, serif", fontSize: "2rem" }}
