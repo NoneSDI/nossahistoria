@@ -46,7 +46,8 @@ export interface Payment {
   updated_at: string;
 }
 
-export const PRICE_BRL = 1;
+export const PRICE_BRL = 14.9;
+export const PRICE_OLD_BRL = 29.9;
 
 export const THEMES: Record<Theme, { label: string; gradient: string; accent: string }> = {
   rose: { label: "Rosa Clássico", gradient: "from-rose-500 to-pink-600", accent: "#f43f5e" },
