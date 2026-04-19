@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 import { Heart, ArrowLeft, CreditCard, QrCode, Shield, Loader2 } from "lucide-react";
 import { getDraft, createPayment } from "../../lib/api";
 import type { Draft } from "../../lib/types";
-import { PRICE_BRL } from "../../lib/types";
+import { PRICE_BRL, PRICE_OLD_BRL } from "../../lib/types";
 
 export function CheckoutPage() {
   const { draftId } = useParams<{ draftId: string }>();
