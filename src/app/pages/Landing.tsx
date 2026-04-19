@@ -127,7 +127,8 @@ function Hero() {
           className="text-white/40 mt-8 text-sm"
           style={{ fontFamily: "Lora, serif" }}
         >
-          Pagamento único de <span className="text-rose-300">{formatBRL(PRICE_BRL)}</span> · PIX ou cartão · Acesso imediato
+          <span className="line-through text-white/25 mr-1">{formatBRL(PRICE_OLD_BRL)}</span>
+          <span className="text-rose-300">{formatBRL(PRICE_BRL)} hoje</span> · PIX ou cartão · Acesso imediato
         </motion.p>
       </div>
     </section>
