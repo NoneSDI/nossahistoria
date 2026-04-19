@@ -1,10 +1,7 @@
 import type { LoveData } from "./types";
-import img1 from "../imports/WhatsApp_Image_2026-04-16_at_23.53.56.jpeg";
-import img2 from "../imports/WhatsApp_Image_2026-04-16_at_23.53.55.jpeg";
-import img3 from "../imports/WhatsApp_Image_2026-04-16_at_23.53.55_(3).jpeg";
-import img4 from "../imports/WhatsApp_Image_2026-04-16_at_23.53.55_(2).jpeg";
-import img5 from "../imports/WhatsApp_Image_2026-04-16_at_23.53.55_(1).jpeg";
-import img6 from "../imports/WhatsApp_Image_2026-04-16_at_23.53.54.jpeg";
+import img1 from "../imports/WhatsApp_Image_2026-04-16_at_23.53.55.jpeg";
+import img2 from "../imports/WhatsApp_Image_2026-04-16_at_23.53.55_(1).jpeg";
+import img3 from "../imports/WhatsApp_Image_2026-04-16_at_23.53.54.jpeg";
 
 export const DEMO_DATA: LoveData = {
   slug: "jefferson-e-karina-demo",
@@ -36,10 +33,10 @@ E feliz 2 anos pra gente.
 Que isso seja só o começo de tudo que ainda vamos viver.
 
 Eu te amo ❤️`,
-  photos: [img1, img2, img3, img4, img5, img6],
+  photos: [img1, img2, img3],
   musicUrl: "/musica.mp3",
   theme: "rose",
   specialTitle: "Feliz aniversário, meu amor",
-  specialDate: "17 de abril de 2026",
-  signature: "Guilherme",
+  specialDate: "01 de janeiro de 2026",
+  signature: "Jefferson",
 };
