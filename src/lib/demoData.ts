@@ -7,11 +7,11 @@ import img5 from "../imports/WhatsApp_Image_2026-04-16_at_23.53.55_(1).jpeg";
 import img6 from "../imports/WhatsApp_Image_2026-04-16_at_23.53.54.jpeg";
 
 export const DEMO_DATA: LoveData = {
-  slug: "guilherme-e-brenda-demo",
-  person1: "Guilherme",
-  person2: "Brenda",
-  startDate: "2024-04-17",
-  story: `Brenda,
+  slug: "jefferson-e-karina-demo",
+  person1: "Jefferson",
+  person2: "Karina",
+  startDate: "1995-04-10",
+  story: `Karina,
 
 Hoje não é só mais um dia… é o dia em que o mundo ficou mais bonito, porque foi o dia que você nasceu.
 
