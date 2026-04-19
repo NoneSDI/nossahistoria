@@ -341,7 +341,13 @@ function Pricing() {
         >
           <div className="text-center mb-8">
             <div className="inline-block px-4 py-1 rounded-full bg-rose-500/20 border border-rose-500/30 text-rose-300 text-xs uppercase tracking-widest mb-6">
-              Pagamento único
+              🎉 Promo de lançamento · 50% OFF
+            </div>
+            <div
+              className="text-white/30 line-through mb-2"
+              style={{ fontFamily: "Playfair Display, serif", fontSize: "1.3rem" }}
+            >
+              De R$ {PRICE_OLD_BRL.toFixed(2).replace(".", ",")}
             </div>
             <div className="flex items-baseline justify-center gap-2 mb-2">
               <span className="text-white/60" style={{ fontFamily: "Playfair Display, serif", fontSize: "1.5rem" }}>
@@ -355,7 +361,7 @@ function Pricing() {
               </span>
             </div>
             <p className="text-white/40 text-sm" style={{ fontFamily: "Lora, serif" }}>
-              Acesso vitalício · sem mensalidade
+              Pagamento único · acesso vitalício · sem mensalidade
             </p>
           </div>
 
