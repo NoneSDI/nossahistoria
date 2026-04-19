@@ -1,7 +1,7 @@
 import type { LoveData } from "./types";
 import img1 from "../imports/WhatsApp_Image_2026-04-16_at_23.53.54-kHnPmkQj.jpeg";
-import img2 from "../imports/WhatsApp_Image_2026-04-16_at_23.53.55_(1).jpeg";
-import img3 from "../imports/WhatsApp_Image_2026-04-16_at_23.53.54.jpeg";
+import img2 from "../imports/WhatsApp_Image_2026-04-16_at_23.53.55-B8ZLIsB4.jpeg";
+import img3 from "../imports/WhatsApp_Image_2026-04-16_at_23.53.55_(1)-DafJzkZP.jpeg";
 
 export const DEMO_DATA: LoveData = {
   slug: "jefferson-e-karina-demo",
